@@ -37,3 +37,10 @@ Requirement:
 4. MAE of Prophet: 2.7065287302674927
 
 ## Inference: Since the values of RMSE and MAE of FBprophet are less than Auto Arima, we can conclude that FBprophet performed better than Auto Arima at forecasting the Time Series.
+
+References - 
+1. https://www.kaggle.com/rohanrao/a-modern-time-series-tutorial
+2. https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+3. https://www.scribbr.com/statistics/akaike-information-criterion/
+4. https://thedatascientist.com/performance-measures-rmse-mae/
+5. https://facebook.github.io/prophet/docs/quick_start.html
