@@ -29,4 +29,11 @@ Requirement:
 #### ARIMA vs FBprophet
 ![download (2)](https://user-images.githubusercontent.com/78731243/119270384-14426800-bc1a-11eb-9d74-2718c55358c6.png)
 
+## Observation: 
+1. RMSE of Auto ARIMAX: 20.669041344063924
+2. RMSE of Prophet: 3.5843342933049582
+
+3. MAE of Auto ARIMAX: 16.952709412802868
+4. MAE of Prophet: 2.7065287302674927
+
 ## Inference: Since the values of RMSE and MAE of FBprophet are less than Auto Arima, we can conclude that FBprophet performed better than Auto Arima at forecasting the Time Series.
