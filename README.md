@@ -36,7 +36,7 @@ Requirement:
 3. MAE of Auto ARIMAX: 16.952709412802868
 4. MAE of Prophet: 2.7065287302674927
 
-## Inference: Since the values of RMSE and MAE of FBprophet are less than Auto Arima, we can conclude that FBprophet performed better than Auto Arima at forecasting the Time Series.
+### Inference: Since the values of RMSE and MAE of FBprophet are less than that of Auto Arima, we can conclude that FBprophet performed better than Auto Arima at forecasting the Closing price of Tata Motors Time Series.
 
 References - 
 1. https://www.kaggle.com/rohanrao/a-modern-time-series-tutorial
