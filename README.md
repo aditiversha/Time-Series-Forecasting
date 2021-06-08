@@ -38,6 +38,9 @@ RMSE of Prophet: 4.71
 MAE of Auto ARIMAX: 2.72
 MAE of Prophet: 3.97
 
+## Inference:
+The Prophet model generally performs better for time series values having a certain cyclicality. In the case of stocks from the various industry sectors, this can possibly be the case as fundamentally we see some months with spiked sales of cars/fertilisers and so on.
+Hence the Prophet model may outperform the ARIMA/ARIMAX models for some assets.
 
 References - 
 1. https://www.kaggle.com/rohanrao/a-modern-time-series-tutorial
