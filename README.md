@@ -32,12 +32,12 @@ Requirement:
 ![3](https://user-images.githubusercontent.com/78731243/120175648-10b76e00-c224-11eb-9c9b-d03234c631e6.png)
 
 ## Observation: 
-RMSE of Auto ARIMAX: 3.49
-RMSE of Prophet: 4.71
-
-MAE of Auto ARIMAX: 2.72
-MAE of Prophet: 3.97
-
+1. RMSE of Auto ARIMAX: 3.49
+2. RMSE of Prophet: 4.71
+<br></br>
+3. MAE of Auto ARIMAX: 2.72
+4. MAE of Prophet: 3.97
+ 
 ## Inference:
 The Prophet model generally performs better for time series values having a certain cyclicality. In the case of stocks from the various industry sectors, this can possibly be the case as fundamentally we see some months with spiked sales of cars/fertilisers and so on.
 Hence the Prophet model may outperform the ARIMA/ARIMAX models for some assets.
