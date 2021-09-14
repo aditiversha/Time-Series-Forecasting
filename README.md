@@ -20,23 +20,38 @@ Requirement:
 
 ### Output images
 
-#### ARIMA forecasting
-![1](https://user-images.githubusercontent.com/78731243/120175584-0301e880-c224-11eb-86fd-a7c3ecc3819c.png)
+#### Ultrachemco
+![ucmco - sa](https://user-images.githubusercontent.com/78731243/133252194-0902118a-3d30-4a2d-862c-c48c21db2d63.png)
+![ucmco - fb](https://user-images.githubusercontent.com/78731243/133252222-0719135c-b200-475c-8568-845d9d67e780.png)
 
+#### Tata Steel
+![ts-sa](https://user-images.githubusercontent.com/78731243/133252453-8e839c5d-0a0d-48ba-ba5a-c12c4db9044a.png)
+![ts-fb](https://user-images.githubusercontent.com/78731243/133252472-6c585d85-6878-4f4d-bc39-ad1602d1d8eb.png)
 
-#### FBprophet
-![2](https://user-images.githubusercontent.com/78731243/120175614-08f7c980-c224-11eb-8387-7506cbbc3e82.png)
+#### Power Grid
+![pg - sa](https://user-images.githubusercontent.com/78731243/133252739-49a53c51-9663-47d6-80f9-fdd57bdd65fc.png)
+![pg - fb](https://user-images.githubusercontent.com/78731243/133252751-d339ff58-11d6-45ad-83b6-105764229c40.png)
 
+#### NTPC
+![ntpc - sa](https://user-images.githubusercontent.com/78731243/133252951-9f898bdd-96de-49a2-b181-a00660a2a770.png)
+![ntpc - fb](https://user-images.githubusercontent.com/78731243/133252957-ebabc86d-efc8-45a2-a1ac-385042a074b0.png)
 
-#### ARIMA vs FBprophet
-![3](https://user-images.githubusercontent.com/78731243/120175648-10b76e00-c224-11eb-9c9b-d03234c631e6.png)
+#### Nestle
+![nst - sa](https://user-images.githubusercontent.com/78731243/133253198-ccf8f701-cabd-494b-85d8-45610aa33dc4.png)
+![nst - fb](https://user-images.githubusercontent.com/78731243/133253209-3bd855bd-0760-4aba-9aaa-db62ed53d4f2.png)
 
-## Observation: 
-1. RMSE of Auto ARIMAX: 3.49
-2. RMSE of Prophet: 4.71
-<br></br>
-3. MAE of Auto ARIMAX: 2.72
-4. MAE of Prophet: 3.97
+#### Maruti
+![mar - sa](https://user-images.githubusercontent.com/78731243/133253364-ab58caa2-23da-4c32-85ba-544294d16769.png)
+![mar - fb](https://user-images.githubusercontent.com/78731243/133253377-a39d5789-7742-4e70-ac87-457c1feac749.png)
+
+#### Coal India
+![ci - sa](https://user-images.githubusercontent.com/78731243/133253509-6686b1f1-b858-41a0-a894-ef35b997299f.png)
+![ci - fb](https://user-images.githubusercontent.com/78731243/133253516-948e5437-6b85-453f-9f21-549a22b03a01.png)
+
+#### Bajaj FinServ
+![bj - sa](https://user-images.githubusercontent.com/78731243/133253623-bf0c6f18-06d1-4375-92d9-42ff5797d434.png)
+![bj - fb](https://user-images.githubusercontent.com/78731243/133253638-28b69926-ee81-4aa7-a910-3e6233897e2e.png)
+
  
 ## Inference:
 The Prophet model generally performs better for time series values having a certain cyclicality. In the case of stocks from the various industry sectors, this can possibly be the case as fundamentally we see some months with spiked sales of cars/fertilisers and so on.
